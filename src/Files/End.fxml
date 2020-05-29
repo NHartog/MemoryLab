@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.End">
+   <children>
+      <Text layoutX="226.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You finished Memory in:" />
+      <Text fx:id="finalTime" layoutX="286.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Button fx:id="playagain" layoutX="145.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#playAgain" text="Play again" />
+      <Button fx:id="exit" layoutX="374.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#bye" text="Exit" />
+   </children>
+</AnchorPane>
